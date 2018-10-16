@@ -1,0 +1,16 @@
+{
+  "name": "ssbat",
+  "version": "0.5.0",
+  "description": "ss.lv scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikael Brockman",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "html-to-text": "^4.0.0",
+    "node-fetch": "^2.2.0"
+  }
+}
