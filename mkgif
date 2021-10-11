@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+cd "$(mktemp -d)"
+i=1
+for x in "$@"; do
+  curl -sL "$x" > $i.jpg
+  imgs+="$i.jpg "
+  i=$((i + 1))
+done
+convert -resize 300x300 -delay 150 -loop 0 $imgs loop.gif
+cat loop.gif

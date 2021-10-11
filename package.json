@@ -10,7 +10,14 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "html-to-text": "^4.0.0",
-    "node-fetch": "^2.2.0"
+    "gps-distance": "0.0.4",
+    "ioredis": "^4.1.0",
+    "mailgun-js": "^0.21.0",
+    "nano": "^7.1.0",
+    "node-emoji": "^1.8.1",
+    "node-fetch": "^2.2.0",
+    "telegraf": "^3.24.1",
+    "twilio": "^3.33.1",
+    "uuid": "^3.3.2"
   }
 }
